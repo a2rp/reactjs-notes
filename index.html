@@ -3,17 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/public/favicon.ico" />
+        <link rel="icon" href="./public/favicon.ico" />
 <meta name="theme-color" content="#101010" />
 <meta name="description" content="Practical ReactJS notes covering components, JSX, styling, and hooks." />
 <meta property="og:title" content="ReactJS Notes" />
 <meta property="og:description" content="Practical ReactJS notes covering components, JSX, styling, and hooks." />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="/public/preview.png" />
+<meta property="og:image" content="./public/preview.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="ReactJS Notes" />
 <meta name="twitter:description" content="Practical ReactJS notes covering components, JSX, styling, and hooks." />
-<meta name="twitter:image" content="/public/preview.png" />
+<meta name="twitter:image" content="./public/preview.png" />
 <title>ReactJS Notes | Ashish Ranjan</title>
         <style type="text/css">
             * {
@@ -71,23 +71,23 @@
     body { background: #101010; color: #e7e7e7; padding-top: 74px; }
     .project-header { position: fixed; inset: 0 0 auto; z-index: 10; min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 10px clamp(15px, 5vw, 72px); background: rgba(16,16,16,.94); border-bottom: 1px solid #333; box-shadow: 0 8px 28px rgba(0,0,0,.25); backdrop-filter: blur(12px); }
     .project-brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 700; }
-    .project-brand img { width: 36px; height: 36px; object-fit: contain; border: 1px solid #444; border-radius: 8px; }
+    .project-brand img { width: 36px; height: 36px; object-fit: contain; border: 1px solid #444; border-radius: 8px; filter: grayscale(1); }
     .project-label { color: #aaa; font-size: 12px; }
     .container { max-width: 1050px; margin: 0 auto; padding: 20px clamp(15px, 4vw, 42px) 70px; }
     .container h3 { color: #fff; font-size: clamp(18px, 3vw, 24px); }
-    .container pre { overflow-x: auto; background: #191919; color: #d5e6ff; border: 1px solid #333; border-radius: 10px; }
+    .container pre { overflow-x: auto; background: #191919; color: #e4e4e4; border: 1px solid #333; border-radius: 10px; }
     .a2rpRight { margin: 18px 0; border: 1px solid #333; border-radius: 8px; }
     .project-footer { max-width: 1050px; margin: 0 auto; padding: 22px clamp(15px, 4vw, 42px) 34px; border-top: 1px solid #333; color: #aaa; }
     .footer-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
     .footer-links a, .top-button { width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #444; border-radius: 8px; color: #ddd; text-decoration: none; background: #191919; transition: border-color 180ms ease, box-shadow 180ms ease, color 180ms ease, background 180ms ease; }
-    .footer-links a:hover, .footer-links a:focus-visible, .top-button:hover, .top-button:focus-visible { border-color: #9cc7ff; color: #fff; background: #222; box-shadow: 0 0 16px rgba(156,199,255,.2); outline: none; }
+    .footer-links a:hover, .footer-links a:focus-visible, .top-button:hover, .top-button:focus-visible { border-color: #c4c4c4; color: #fff; background: #222; box-shadow: 0 0 16px rgba(196, 196, 196, .2); outline: none; }
     .top-button { position: fixed; right: 20px; bottom: 20px; cursor: pointer; font-size: 18px; }
     @media (max-width: 600px) { .project-label { display: none; } body { padding-top: 68px; } }
 </style></style>
     </head>
     <body id="top"><header class="project-header">
     <a class="project-brand" href="#top">
-        <img src="/public/logo.png" alt="Ashish Ranjan logo" />
+        <img src="./public/logo.png" alt="Ashish Ranjan logo" />
         <span>ReactJS Notes</span>
     </a>
     <span class="project-label">Practical frontend reference</span>
