@@ -1,8 +1,9 @@
 # ReactJS Notes
 
+![ReactJS Notes preview](screenshot.png)
+
 A compact static reference covering React components, JSX, styling, Sass, hooks, and common frontend setup notes.
 
-![ReactJS Notes preview](screenshot.png)
 
 ## Features
 
